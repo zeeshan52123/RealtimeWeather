@@ -1,0 +1,36 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h5 {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .weather-info {
+    margin-top: 2rem;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+  }
+  
+  .weather-info h5 {
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/index1.css">
+</head>
+<body>
+  <div class="container">
+    <h5 class="mt-4">Real Time Weather API</h5>
+    <form method="post">
+      <div class="form-group">
+        <input type="text" class="form-control" id="mytxtinput" name="mytxtinput" placeholder="Enter Location">
+      </div>
+      <button type="submit" class="btn btn-primary">Current weather!</button>
+    </form>
+    <div class="weather-info">
+      <h6>Location = {{ Location }} </h6>
+      <h6 class="mt-4">Current weather last_updated = {{ last_update }}</h6>
+      <h6>Current weather temp_f = {{ temp_f }}</h6>
+      <h6>Current weather temp_c = {{ temp_c }}</h6>
+      <h6>Current weather is_day = {{ is_day }}</h6>
+    </div>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
